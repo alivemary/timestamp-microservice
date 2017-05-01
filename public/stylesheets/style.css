@@ -6,3 +6,18 @@ body {
 a {
   color: #00B7FF;
 }
+
+blockquote {
+  border-left: 5px solid #eee;
+  display: block;
+  margin-left: 0px;
+  padding-left: 10px;
+}
+
+li {
+  padding-bottom: 15px;
+}
+
+.red {
+  color: red;
+}
