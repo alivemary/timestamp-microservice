@@ -18,7 +18,7 @@ app.get("/", function (req, res) {
   res.sendFile(__dirname + '/views/index.html');
 });
 
-app.get("/:date_string", function (req, res) {
+app.get("/api/timestamp/:date_string", function (req, res) {
   
   var new_date = req.params.date_string;
   var result = {"error" : "Invalid Date" };
