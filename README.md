@@ -1,6 +1,10 @@
 
 # API Project: Timestamp Microservice for FCC
 
+### Home Page :
+
+[honorable-airplane.hyperdev.space](http://honorable-airplane.hyperdev.space)
+
 ### User stories :
 
 1. The API endpoint is `GET [project_url]/api/timestamp/:date_string?`
@@ -12,8 +16,8 @@ e.g. `{"unix": 1479663089000 ,"utc": "Sun, 20 Nov 2016 17:31:29 GMT"}`.
 5. If the date string is **invalid** the api returns a JSON having the structure `{"error" : "Invalid Date" }`. It is what you get from the date manipulation functions used above.
 
 #### Example usage:
-* honorable-airplane.hyperdev.space/api/timestamp/2015-12-15
-* honorable-airplane.hyperdev.space/api/timestamp/1450137600
+* [honorable-airplane.hyperdev.space/api/timestamp/2015-12-15](http://honorable-airplane.hyperdev.space/api/timestamp/2015-12-15)
+* [honorable-airplane.hyperdev.space/api/timestamp/1450137600](http://honorable-airplane.hyperdev.space/api/timestamp/1450137600)
 
 #### Example output:
 * {"unix":1451001600000,"time":"Fri, 25 Dec 2015 00:00:00 GMT"}
